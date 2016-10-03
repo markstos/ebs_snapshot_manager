@@ -48,4 +48,6 @@ Example of my setup:
 20 */2 * * * snapshots /usr/local/bin/ebs_snapshot_manager.py >> /var/log/ebs_snapshot_manager.log 2>&1
 ```
 
-
+### See Also
+ 
+ * [aws-rolling-snaps](https://github.com/strofimovsky/aws-rolling-snaps) is also written in Python and provides the same functions, including flexible retention defintions per day, week and month, as well as the ability to run from AWS Lambda. 
